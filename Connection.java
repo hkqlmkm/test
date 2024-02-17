@@ -61,7 +61,6 @@ public class Connection extends Thread {
 		if(delegate != null) {
 			try {
 				this.out.reset();
-				println("ffffff");
 				out.writeObject(unObjet);
 				out.flush();
 			} catch (IOException e) {
